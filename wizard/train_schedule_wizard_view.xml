@@ -1,0 +1,18 @@
+<odoo>
+    <record id="view_train_schedule_wizard_form" model="ir.ui.view">
+        <field name="name">train.schedule.wizard.form</field>
+        <field name="model">train.schedule.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="train_id"/>
+                    <field name="schedule_ids"/>
+                </group>
+                <footer>
+                    <button string="Create Schedules" type="object" name="action_create_schedules" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

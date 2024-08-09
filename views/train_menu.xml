@@ -1,0 +1,10 @@
+<odoo>
+    <menuitem id="menu_train_root" name="Train" sequence="10"/>
+
+    <menuitem id="menu_train_train" name="Trains" parent="menu_train_root" action="action_train_train"/>
+    <menuitem id="menu_train_schedule" name="Schedules" parent="menu_train_root" action="action_train_schedule"/>
+    
+    <menuitem id="menu_train_config" name="Configurations" parent="menu_train_root" sequence="20"/>
+    <menuitem id="menu_train_city" name="City" parent="menu_train_config" action="action_train_city"/>
+    <menuitem id="menu_train_station" name="Station" parent="menu_train_config" action="action_train_station"/>
+</odoo>
